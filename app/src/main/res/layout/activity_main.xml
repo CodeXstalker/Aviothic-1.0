@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+<<<<<<< HEAD
+=======
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="30dp"
+        android:layout_height="wrap_content"
+        android:text="Happy Learning !!"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
+>>>>>>> 31f37e528fdaf6441f43c1200504e314aa9a370a
+

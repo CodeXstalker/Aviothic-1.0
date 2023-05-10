@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Aviothic</string>
+    <string name="Enter_Your_Email">Enter Your Email</string>
+    <string name="Enter_Your_Password">Enter Your Password</string>
+    <string name="Sign_Up">Sign Up</string>
+    <string name="Want_to_LogIn">Want to LogIn?</string>
+    <string name="signUpMail">signUpMail</string>
+    <string name="signUpPassword">signUpPassword</string>
+    <string name="logo">logo</string>
+</resources>
