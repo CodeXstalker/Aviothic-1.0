@@ -4,12 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".SplashScreen">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/aviothiclgo"
-        />
+        android:layout_width="177dp"
+        android:layout_height="181dp"
+        android:src="@drawable/aviothiclgo" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ayush yadav"
+        android:textSize="45dp"
+
+
+/>
 </LinearLayout>
