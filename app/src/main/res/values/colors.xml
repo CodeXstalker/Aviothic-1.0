@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="logo">#1F1A55</color>
+    <color name="cyberShrishti">#231F20</color>
+
 </resources>

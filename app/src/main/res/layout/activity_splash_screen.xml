@@ -1,23 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/First"
     android:orientation="vertical"
     tools:context=".SplashScreen">
 
     <ImageView
-        android:layout_width="177dp"
-        android:layout_height="181dp"
+        android:id="@+id/logo"
+        android:layout_width="159dp"
+        android:layout_height="162dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
         android:src="@drawable/aviothiclgo" />
 
+
     <TextView
+        android:id="@+id/Aviothic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Shivansh Kumar"
-        android:textSize="45dp"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@+id/logo"
+        android:fontFamily="@font/protos"
+       android:layout_marginTop="330dp"
+        android:text="Aviothic"
+        android:textColor="@color/logo"
+        android:textSize="40sp" />
 
-
-/>
-</LinearLayout>
+    <TextView
+        android:id="@+id/CyberShrishti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@+id/logo"
+        android:layout_below="@+id/Aviothic"
+        android:fontFamily="@font/calligraphy1"
+        android:layout_centerVertical="true"
+        android:text="A CyberShrishti Initiative"
+        android:textColor="@color/cyberShrishti"
+        android:layout_marginStart="20dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+</RelativeLayout>
