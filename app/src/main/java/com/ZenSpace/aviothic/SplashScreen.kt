@@ -23,7 +23,7 @@ class SplashScreen : AppCompatActivity() {
             // Start the main activity after the splash screen is done
             startActivity(Intent(this, MainActivity::class.java))
             finish()
-        }, 2800)
+        }, 3000)
 
     }
 }
