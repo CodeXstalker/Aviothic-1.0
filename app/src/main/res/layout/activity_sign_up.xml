@@ -37,6 +37,8 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:id="@+id/email"
+        app:boxStrokeColor="@color/logo"
+        app:boxStrokeWidth="10dp"
         >
 
         <EditText
