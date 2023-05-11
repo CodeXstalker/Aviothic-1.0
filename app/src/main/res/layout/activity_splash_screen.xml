@@ -14,9 +14,10 @@
         android:id="@+id/logo"
         android:layout_width="126dp"
         android:layout_height="142dp"
-        android:layout_marginStart="28dp"
         android:src="@drawable/aviothiclgo"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499" />
@@ -25,18 +26,16 @@
         android:id="@+id/Aviothic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="-10dp"
-        android:layout_marginBottom="8dp"
         android:fontFamily="@font/protos"
         android:text="Aviothic"
         android:textColor="@color/logo"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="@+id/logo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/logo"
         app:layout_constraintTop_toTopOf="@+id/logo"
-        app:layout_constraintVertical_bias="0.449" />
+        app:layout_constraintVertical_bias="0.34" />
 
     <TextView
         android:id="@+id/CyberShrishti"
@@ -49,8 +48,8 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/logo"
         app:layout_constraintEnd_toEndOf="@+id/Aviothic"
-        app:layout_constraintHorizontal_bias="0.382"
-        app:layout_constraintStart_toEndOf="@+id/logo"
-        app:layout_constraintTop_toBottomOf="@+id/Aviothic"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="@+id/Aviothic"
+        app:layout_constraintTop_toTopOf="@+id/logo"
+        app:layout_constraintVertical_bias="0.684" />
 </androidx.constraintlayout.widget.ConstraintLayout>
