@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Aviothic"
         tools:targetApi="31">
+
         <activity
             android:name=".SplashScreen"
             android:exported="true">
@@ -33,6 +34,3 @@
     </application>
 
 </manifest>
-
-
-
