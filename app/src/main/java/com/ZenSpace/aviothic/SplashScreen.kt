@@ -21,7 +21,7 @@ class SplashScreen : AppCompatActivity() {
 
         Handler().postDelayed({
             // Start the main activity after the splash screen is done
-            startActivity(Intent(this, MainActivity::class.java))
+            startActivity(Intent(this, HomeActivity::class.java))
             finish()
         }, 3000)
 
